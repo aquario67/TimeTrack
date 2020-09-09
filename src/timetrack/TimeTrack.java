@@ -9,7 +9,7 @@ import timetrack.model.*;
 
 /**
  *
- * @author aquar
+ * @author Mikael Johansson
  */
 public class TimeTrack {
     /**
