@@ -12,18 +12,17 @@ import timetrack.model.*;
  * @author Mikael Johansson
  */
 public class TimeTrack {
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello World!");
-        User myUser = new User();
+        User myUser;
+        myUser = new User();
         myUser.setID(1);
         myUser.setName("Kalle");
         myUser.setEmail("kalle@example.org");
         myUser.setPassword("changeit");
         myUser.setAdmin(false);
+
         try {
             System.out.println("Hello World!");
             System.out.println(myUser.getInfo());
@@ -31,5 +30,5 @@ public class TimeTrack {
             System.out.println(e.getMessage());
         }
     }
-    
+
 }

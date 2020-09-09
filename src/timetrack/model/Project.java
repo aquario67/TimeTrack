@@ -10,5 +10,5 @@ package timetrack.model;
  * @author aquar
  */
 public class Project {
-    
+
 }
